@@ -40,4 +40,24 @@ void loop(){
     analogWrite(G, 0); 
     
     delay(500);
+    
+    analogWrite(R, 150); // Violet
+    analogWrite(B, 150); 
+    analogWrite(G, 0); 
+    
+    delay(500);
+    
+    analogWrite(R, 150); // Grey
+    analogWrite(B, 150); 
+    analogWrite(G, 150); 
+  
+    delay(500);
+  
+    analogWrite(R, 255); // White
+    analogWrite(B, 255); 
+    analogWrite(G, 255); 
+  
+    delay(500);
+  
+    
 }
