@@ -6,7 +6,6 @@ void setup() {
   tone(8,500,250);
   delay(500);
   
-
   pinMode(R, OUTPUT);
 
   pinMode(B, OUTPUT);
@@ -58,6 +57,5 @@ void loop(){
     analogWrite(G, 255); 
   
     delay(500);
-  
     
 }
