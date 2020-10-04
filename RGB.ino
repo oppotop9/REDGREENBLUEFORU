@@ -16,6 +16,7 @@ void setup() {
 }
 
 void loop(){
+  
     analogWrite(R, 255); // RED 
     analogWrite(B, 0); 
     analogWrite(G, 0); 
